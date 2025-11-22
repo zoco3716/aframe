@@ -8,12 +8,17 @@
   </head>
   <body>
     <a-scene background="color: red">
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <!--<a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>-->
+      <a-dodecahedron position="-1 0.5 -3" color="#FF926B" radius="5"></a-dodecahedron>
+      <a-ring src="#texture" color="teal" radius-inner="1" radius-outer="2"></a-ring>
+      
+
       <a-assets>
         <img id="sky" src="/ImageLab10/beach-sky.jpeg">
+        <img id="texture" src="/ImageLab10/polka.avif">
       </a-assets>
       <a-sky src="#sky"></a-sky>
     </a-scene>
