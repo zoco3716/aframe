@@ -1,0 +1,173 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.4.50",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "swing"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "swing_grp",
+            "scale" : [
+                100,
+                100,
+                100
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "m_swing.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "TEXCOORD_0" : 1,
+                        "NORMAL" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "swing_norm",
+            "uri" : "swing_norm.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "swing_ao-swing_rough-swing_metal",
+            "uri" : "swing_ao-swing_rough-swing_metal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "swing_basecolor",
+            "uri" : "swing_basecolor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 34859,
+            "max" : [
+                1.000882625579834,
+                1.5824549198150635,
+                0.3906063735485077
+            ],
+            "min" : [
+                -1.0008825063705444,
+                1.3801057320961263e-05,
+                -0.3906063735485077
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 34859,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 34859,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 179376,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 418308,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 278872,
+            "byteOffset" : 418308,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 418308,
+            "byteOffset" : 697180,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 358752,
+            "byteOffset" : 1115488,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1474240,
+            "uri" : "swing.bin"
+        }
+    ]
+}
